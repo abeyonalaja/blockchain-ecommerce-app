@@ -4,7 +4,7 @@ import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 
 contract PaymentProcessor{
     address public admin;
-    IERC20 public dia;
+    IERC20 public dai;
 
     event PaymentDone( address payer, uint amount, uint paymentId, uint date);
 
